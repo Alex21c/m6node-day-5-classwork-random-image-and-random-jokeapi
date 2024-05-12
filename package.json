@@ -1,0 +1,32 @@
+{
+  "name": "m6node-day-5-classwork-random-image-and-random-jokeapi",
+  "version": "1.0.0",
+  "description": "In this assignment, i have created a Random Image & Joke API using Node.js, a popular runtime environment for executing JavaScript code outside of a browser. This project help me understand backend development, APIs, and the Express.js framework.",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex21c/m6node-day-5-classwork-random-image-and-random-jokeapi"
+  },
+  "keywords": [
+    "api",
+    "random image",
+    "random joke",
+    "alex21c",
+    "unsplash",
+    "api ninjas dadjokes"
+  ],
+  "author": "Abhishek kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alex21c/m6node-day-5-classwork-random-image-and-random-jokeapi/issues"
+  },
+  "homepage": "https://github.com/Alex21c/m6node-day-5-classwork-random-image-and-random-jokeapi#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
