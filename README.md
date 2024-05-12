@@ -1,8 +1,8 @@
-# Random image API (Day 5 Homework, Module #6, NodeJS)
+# Random Image and Random Joke API (Day 5 Classwork, Module #6, MERN Stack)
 ![](thumbnail.png)
 
 ## Description:
-In this assignment, i have created a Random Image API using Node.js, a popular runtime environment for executing JavaScript code outside of a browser. This project help me understand backend development, APIs, and the Express.js framework.
+In this assignment, i have created a Random Image and Random Joke API using Node.js, a popular runtime environment for executing JavaScript code outside of a browser. This project helped me understand backend development, APIs, and the Express.js framework. Random Joke is being fetched from [Ninjas DadJokes](https://api-ninjas.com/api/dadjokes), whereas random image is being fetched from [unsplash](https://unsplash.com/) 
 
 ## Objective:
 The objective of this assignment was to gain hands-on experience in building a simple RESTful API that generates random Image. Through this project, i have learnt the fundamentals of setting up a server, defining routes, and handling HTTP requests and responses.
@@ -24,7 +24,7 @@ UNSPLASH_ACCESS_KEY="YOURS_UNSPLASH_ACCESS_KEY"
 ```
 ### Step #2 git terminal installation
 ```bash
-git clone https://github.com/Alex21c/m6node-day-5-homework-random-image-api.git
+git clone https://github.com/Alex21c/m6node-day-5-classwork-random-image-and-random-jokeapi.git
 npm i
 node index.mjs
 ```
