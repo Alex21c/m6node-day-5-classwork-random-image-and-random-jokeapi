@@ -17,10 +17,11 @@ The objective of this assignment was to gain hands-on experience in building a s
 
 ## How execute express server on yours local machine
 ### Step #1 : Configure .env file 
-YOU Need to have .env file with [unsplash](https://unsplash.com/) API key access key
-https://api-ninjas.com/api/dadjokes
+YOU Need to have .env file with [unsplash](https://unsplash.com/) API access key, and [Ninja API DadJokes](https://api-ninjas.com/api/dadjokes) API Access Key
+
 ```javascript
 UNSPLASH_ACCESS_KEY="YOURS_UNSPLASH_ACCESS_KEY"
+APININJAS_DADJOKES_ACCESS_KEY="blYELrc4zv9VqBxaE/PoEw==Nb75KVlcIWup27Su"
 ```
 ### Step #2 git terminal installation
 ```bash
@@ -45,20 +46,21 @@ When a GET request is made to ```/api/image-and-joke/random```, the server will 
 return an JSON object containing random image URL and description.
 ```javascript
 {
+    "randomJoke": "What do you call a can opener that doesn’t work? A can’t opener!",
     "randomImage": {
-        "url": "https://images.unsplash.com/photo-1715144536780-c847096a8632?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NTc5NTR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1MDcwMTl8&ixlib=rb-4.0.3&q=80&w=1080",
-        "description": "an aerial view of a beach with trees in the background"
+        "url": "https://images.unsplash.com/photo-1709777083341-2ebb9f0772cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NTc5NTR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1OTA5NTd8&ixlib=rb-4.0.3&q=80&w=1080",
+        "description": "a large body of water with a city in the background"
     }
 }
 ```
 
 ## Demo using [postman](https://www.postman.com/) and google chrome web-browser
 ### Making API Request #1
-![](Screenshots/2.making-api-request-one.png)
+![](Screenshots/output1.png)
 ### Making API Request #2
-![](Screenshots/3.making-api-request-two.png)
+![](Screenshots/output2.png)
 ### Making API Request #3
-![](Screenshots/4.making-api-request-three.png)
+![](Screenshots/output3.png)
 
 
 ## Tech. Stack Used:
