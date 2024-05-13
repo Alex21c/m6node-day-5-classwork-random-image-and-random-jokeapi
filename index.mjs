@@ -18,7 +18,7 @@ async function fetchJoke(){
     let [{joke}] = jsonResponse;
     return {'randomJoke': joke};      
   }catch(error){
-    throw new Error('Unable to genrate random joke!');    
+    throw new Error('Unable to genrate random joke, please try again after some time!');    
   }
   
 } 
@@ -36,7 +36,7 @@ async function fetchImage(){
       throw new Error('Unable to fetch data from API, something went wrong!');
     }
   } catch (error) {    
-    throw new Error('Unable to genrate random image!');    
+    throw new Error('Unable to genrate random image, please try again after some time!');    
   }
 }
 server.get('/api/image-and-joke/random', async(req, res)=>{
