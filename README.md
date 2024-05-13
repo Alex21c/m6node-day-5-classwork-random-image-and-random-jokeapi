@@ -21,7 +21,7 @@ YOU Need to have .env file with [unsplash](https://unsplash.com/) API access key
 
 ```javascript
 UNSPLASH_ACCESS_KEY="YOURS_UNSPLASH_ACCESS_KEY"
-APININJAS_DADJOKES_ACCESS_KEY="blYELrc4zv9VqBxaE/PoEw==Nb75KVlcIWup27Su"
+APININJAS_DADJOKES_ACCESS_KEY="YOURS_NINJA_DADJOKES_ACCESS_KEY"
 ```
 ### Step #2 git terminal installation
 ```bash
